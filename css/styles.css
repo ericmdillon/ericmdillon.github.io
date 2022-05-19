@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Koulen&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css");
 
 /*!
 * Start Bootstrap - Small Business v5.0.5 (https://startbootstrap.com/template/small-business)
@@ -2468,7 +2469,7 @@ textarea.form-control-lg {
      -moz-appearance: none;
           appearance: none;
   -webkit-print-color-adjust: exact;
-          color-adjust: exact;
+          print-color-adjust: exact;
 }
 .form-check-input[type=checkbox] {
   border-radius: 0.25em;
@@ -3273,6 +3274,170 @@ textarea.form-control-lg {
   background-color: transparent;
 }
 
+/*LinkedIn Colors*/
+
+.btn-outline-linkedin {
+  color: #0077B5;
+  border-color: #0077B5;
+}
+.btn-outline-linkedin:hover {
+  color: #fff;
+  background-color: #0077B5;
+  border-color: #0077B5;
+}
+.btn-check:focus + .btn-outline-linkedin, .btn-outline-linkedin:focus {
+  box-shadow: 0 0 0 0.25rem rgba(0, 119, 181, 0.5);
+}
+.btn-check:checked + .btn-outline-linkedin, .btn-check:active + .btn-outline-linkedin, .btn-outline-linkedin:active, .btn-outline-linkedin.active, .btn-outline-linkedin.dropdown-toggle.show {
+  color: #fff;
+  background-color: #0077B5;
+  border-color: #0077B5;
+}
+.btn-check:checked + .btn-outline-linkedin:focus, .btn-check:active + .btn-outline-linkedin:focus, .btn-outline-linkedin:active:focus, .btn-outline-linkedin.active:focus, .btn-outline-linkedin.dropdown-toggle.show:focus {
+  box-shadow: 0 0 0 0.25rem rgba(0, 119, 181, 0.5);
+}
+.btn-outline-linkedin:disabled, .btn-outline-linkedin.disabled {
+  color: #0077B5;
+  background-color: transparent;
+}
+
+/*GitHub Colors*/
+
+.btn-outline-github {
+  color: #333;
+  border-color: #333;
+}
+.btn-outline-github:hover {
+  color: #fff;
+  background-color: #333;
+  border-color: #333;
+}
+.btn-check:focus + .btn-outline-github, .btn-outline-github:focus {
+  box-shadow: 0 0 0 0.25rem rgba(51, 3, 0, 0.5);
+}
+.btn-check:checked + .btn-outline-github, .btn-check:active + .btn-outline-github, .btn-outline-github:active, .btn-outline-github.active, .btn-outline-github.dropdown-toggle.show {
+  color: #fff;
+  background-color: #333;
+  border-color: #333;
+}
+.btn-check:checked + .btn-outline-github:focus, .btn-check:active + .btn-outline-github:focus, .btn-outline-github:active:focus, .btn-outline-github.active:focus, .btn-outline-github.dropdown-toggle.show:focus {
+  box-shadow: 0 0 0 0.25rem rgba(51, 3, 0, 0.5);
+}
+.btn-outline-github:disabled, .btn-outline-github.disabled {
+  color: #333;
+  background-color: transparent;
+}
+
+/*Instagram Colors*/
+
+.btn-outline-instagram {
+  color: #8a3ab9;
+  border-color: #8a3ab9;
+}
+.btn-outline-instagram:hover {
+  color: #fff;
+  background-color: #8a3ab9;
+  border-color: #8a3ab9;
+}
+.btn-check:focus + .btn-outline-instagram, .btn-outline-instagram:focus {
+  box-shadow: 0 0 0 0.25rem rgba(188, 42, 141, 0.5);
+}
+.btn-check:checked + .btn-outline-instagram, .btn-check:active + .btn-outline-instagram, .btn-outline-instagram:active, .btn-outline-instagram.active, .btn-outline-instagram.dropdown-toggle.show {
+  color: #fff;
+  background-color: #8a3ab9;
+  border-color: #8a3ab9;
+}
+.btn-check:checked + .btn-outline-instagram:focus, .btn-check:active + .btn-outline-instagram:focus, .btn-outline-instagram:active:focus, .btn-outline-instagram.active:focus, .btn-outline-instagram.dropdown-toggle.show:focus {
+  box-shadow: 0 0 0 0.25rem rgba(188, 42, 141, 0.5);
+}
+.btn-outline-instagram:disabled, .btn-outline-instagram.disabled {
+  color: #8a3ab9;
+  background-color: transparent;
+}
+
+/*Facebook Colors*/
+
+.btn-outline-facebook {
+  color: #4267B2;
+  border-color: #4267B2;
+}
+.btn-outline-facebook:hover {
+  color: #fff;
+  background-color: #4267B2;
+  border-color: #4267B2;
+}
+.btn-check:focus + .btn-outline-facebook, .btn-outline-facebook:focus {
+  box-shadow: 0 0 0 0.25rem rgba(66, 103, 178, 0.5);
+}
+.btn-check:checked + .btn-outline-facebook, .btn-check:active + .btn-outline-facebook, .btn-outline-facebook:active, .btn-outline-facebook.active, .btn-outline-facebook.dropdown-toggle.show {
+  color: #fff;
+  background-color: #4267B2;
+  border-color: #4267B2;
+}
+.btn-check:checked + .btn-outline-facebook:focus, .btn-check:active + .btn-outline-facebook:focus, .btn-outline-facebook:active:focus, .btn-outline-facebook.active:focus, .btn-outline-facebook.dropdown-toggle.show:focus {
+  box-shadow: 0 0 0 0.25rem rgba(66, 103, 178, 0.5);
+}
+.btn-outline-facebook:disabled, .btn-outline-facebook.disabled {
+  color: #4267B2;
+  background-color: transparent;
+}
+
+/*Twitter Colors*/
+
+.btn-outline-twitter {
+  color: #1DA1F2;
+  border-color: #1DA1F2;
+}
+.btn-outline-twitter:hover {
+  color: #fff;
+  background-color: #1DA1F2;
+  border-color: #1DA1F2;
+}
+.btn-check:focus + .btn-outline-twitter, .btn-outline-twitter:focus {
+  box-shadow: 0 0 0 0.25rem rgba(29, 161, 242, 0.5);
+}
+.btn-check:checked + .btn-outline-twitter, .btn-check:active + .btn-outline-twitter, .btn-outline-twitter:active, .btn-outline-twitter.active, .btn-outline-twitter.dropdown-toggle.show {
+  color: #fff;
+  background-color: #1DA1F2;
+  border-color: #1DA1F2;
+}
+.btn-check:checked + .btn-outline-twitter:focus, .btn-check:active + .btn-outline-twitter:focus, .btn-outline-twitter:active:focus, .btn-outline-twitter.active:focus, .btn-outline-twitter.dropdown-toggle.show:focus {
+  box-shadow: 0 0 0 0.25rem rgba(29, 161, 242, 0.5);
+}
+.btn-outline-twitter:disabled, .btn-outline-twitter.disabled {
+  color: #1DA1F2;
+  background-color: transparent;
+}
+
+/*Mail Colors*/
+
+.btn-outline-mail {
+  color: #b34747;
+  border-color: #b34747;
+}
+.btn-outline-mail:hover {
+  color: #fff;
+  background-color: #b34747;
+  border-color: #b34747;
+}
+.btn-check:focus + .btn-outline-mail, .btn-outline-mail:focus {
+  box-shadow: 0 0 0 0.25rem rgba(255, 142, 142, 0.5);
+}
+.btn-check:checked + .btn-outline-mail, .btn-check:active + .btn-outline-mail, .btn-outline-mail:active, .btn-outline-mail.active, .btn-outline-mail.dropdown-toggle.show {
+  color: #fff;
+  background-color: #b34747;
+  border-color: #b34747;
+}
+.btn-check:checked + .btn-outline-mail:focus, .btn-check:active + .btn-outline-mail:focus, .btn-outline-mail:active:focus, .btn-outline-mail.active:focus, .btn-outline-mail.dropdown-toggle.show:focus {
+  box-shadow: 0 0 0 0.25rem rgba(255, 142, 142, 0.5);
+}
+.btn-outline-mail:disabled, .btn-outline-mail.disabled {
+  color: #b34747;
+  background-color: transparent;
+}
+
+/* Back to the default CSS */
+
 .btn-outline-secondary {
   color: #6c757d;
   border-color: #6c757d;
@@ -3463,13 +3628,13 @@ textarea.form-control-lg {
 .btn-lg, .btn-group-lg > .btn {
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
-  border-radius: 0.3rem;
+  border-radius: 0.0rem;
 }
 
 .btn-sm, .btn-group-sm > .btn {
   padding: 0.25rem 0.5rem;
   font-size: 0.875rem;
-  border-radius: 0.2rem;
+  border-radius: 0.0rem;
 }
 
 .fade {
