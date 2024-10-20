@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://ericmdillon.github.io/al-folio/sitemap.xml
+Sitemap: https://ericmdillon.com/sitemap.xml
