@@ -2,24 +2,24 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: appalachian digital humanist
 
 profile:
-  align: right
-  image: prof_pic.jpg
+  align: left
+  image: HeadshotFallEdited.png
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
+ 
+English instructor at Marshall University and an assistant for the Marshall Digital Humanities program.
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+As a digital humanist, I'm interested in the interplay between the traditional and the digital.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Growing up, I watched my mother go on strike for better working conditions, learned early on in school about the Mine Wars--some of which took place just minutes from my home--and followed the journey of my high school teachers striking for fair wages.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+The information era means that communication and representation are no longer purely physical and written ideas, and it’s more important now than ever that we study the relationship between traditional representation and vocal disobedience with the impact created by electronic media. Representation doesn’t just mean unions and formal organizing. Rather, it’s the presence of those individuals who have been silenced and pushed aside. In digital humanities, I am interested in what that presence looks like in the information era—including both real events and fictional works. Who is talking on social media, and how does their presence give voice to other people? Which peoples are shown on film, tv, and video games?
+
+In 2023, I received a BS in Computer Science and BA in English from Marshall University. In 2024, I received my MPhil in Digital Humanities from the University of Cambridge. My dissertation was focused on video games and their relationship with the processes of adaptation and appropriation. I am looking forward to applying to doctoral programs with a Fall 2026 start date.

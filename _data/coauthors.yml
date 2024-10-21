@@ -1,34 +1,31 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"dampier":
+  - firstname: ["David", "D.", "David. A.", "D. A."]
+    url: https://scholar.google.com/citations?user=rdzBjU8AAAAJ
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"outay":
+  - firstname: ["Fatma", "F."]
+    url: https://scholar.google.com/citations?user=QI-7gxUAAAAJ
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"malik":
+  - firstname: ["Haroon", "H."]
+    url: https://scholar.google.com/citations?user=ZqW_RH4AAAAJ
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"carpenter":
+  - firstname: ["Craig", "C."]
+    url: https://ieeexplore.ieee.org/author/37089562534
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"cook":
+  - firstname: ["John"]
+    url: https://ieeexplore.ieee.org/author/37089559400
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"wills":
+  - firstname: ["Thomas D.", "T. D.", "Thomas", "T."]
+    url: https://ieeexplore.ieee.org/author/37089558160
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"narman":
+  - firstname: ["Husnu", "Husnu Saner", "H.", "H. S."]
+    url: https://scholar.google.com/citations?user=WPzh0vYAAAAJ
 
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
-
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"maddy":
+  - firstname: ["Joshua", "J."]
+    url: https://ieeexplore.ieee.org/author/976367316702248

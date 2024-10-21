@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2024-08-14 12:00:00-0400
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+I was hired by Marshall University as an adjunct English instructor! I'll be teaching English composition this fall.

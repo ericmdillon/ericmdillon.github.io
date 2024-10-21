@@ -18,9 +18,12 @@ group :jekyll_plugins do
     gem 'jekyll-toc'
     gem 'jekyll-twitter-plugin'
     gem 'jemoji'
-    gem 'mini_racer'
+    # gem 'mini_racer', '~> 0.2.0'
+    gem 'kramdown-parser-gfm' 
     gem 'unicode_utils'
     gem 'webrick'
+    gem 'observer'
+    gem 'ostruct'
 end
 group :other_plugins do
     gem 'css_parser'
