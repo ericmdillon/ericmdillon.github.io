@@ -21,7 +21,7 @@ a {
 
 h1 { 
     font-family: "Fontdiner Swanky", sans-serif;
-    font-size: 48pt;
+    font-size: 3em;
     margin: 0.25em 0em 0em 0em;
     font-style: normal;
     text-align: center;   
@@ -121,14 +121,15 @@ aside {
     display: flex;
     flex-direction: column;
     height: 100%;
-    justify-content: space-around;
+    justify-content: start;
 }
 
 img {
     width: 100%;
     height: auto;
     display: block;
-    padding: 1em 0em;
+    margin: 0em 0em 1em 0em;
+
 }
 
 footer {
