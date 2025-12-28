@@ -1,0 +1,136 @@
+body { 
+    background-image: url("images/Gem.png");
+    background-repeat: repeat;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+}
+
+.content {
+    background-color: white;
+    background-image: url("images/Fur.png");
+    mix-blend-mode: normal;
+    max-width: 1100px;
+    margin: 5em auto 2em auto;
+    padding: 1em 3em;
+}
+
+a { 
+    color: #d41393;
+}
+
+h1 { 
+    font-family: "Fontdiner Swanky", sans-serif;
+    font-size: 48pt;
+    margin: 0.25em 0em 0em 0em;
+    font-style: normal;
+    text-align: center;   
+    line-height: 1;
+}
+
+.subtitle {
+    text-align: center;
+    margin: 0em 0em 0em 0em;
+}
+
+h2 {
+    margin: 1em 0em 0.1em 0em;
+    font-style: normal;
+    text-align: center;   
+    line-height: 1;
+}
+
+.three-col { 
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr; /* nav | text | images */
+    gap: 1.5em;
+    align-items: stretch;
+}
+
+.two-col { 
+    display: grid;
+    grid-template-columns: 1fr 3fr; /* nav | text */
+    gap: 1.5em;
+    align-items: stretch;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: start;
+}
+
+nav .button { 
+    text-align: center;
+    background-color: gainsboro;
+    padding: 1em 1em;
+    margin: 0em 0em 1em 0em;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav .home-button { 
+    background-color: oklch(0.8 0.1 180);
+    background-image: url("images/Gem2.png");
+    background-blend-mode: color-burn;
+}
+
+nav .cv-button { 
+    background-color: oklch(0.8 0.1 212);
+    background-image: url("images/Gem2.png");
+    background-blend-mode: color-burn;
+    background-position: 15% 0%;
+
+}
+
+nav .contact-button { 
+    background-color: oklch(0.8 0.1 244);
+    background-image: url("images/Gem2.png");
+    background-blend-mode: color-burn;
+    background-position: 15% 15%;
+
+}
+
+nav .teaching-button { 
+    background-color: oklch(0.8 0.1 276);
+    background-image: url("images/Gem2.png");
+    background-blend-mode: color-burn;
+    background-position: 50% 25%;
+}
+
+nav .news-button { 
+    background-color: oklch(0.8 0.1 308);
+    background-image: url("images/Gem2.png");
+    background-blend-mode: color-burn;
+    background-position: 25% 50%;
+}
+
+nav .things-button { 
+    background-color: oklch(0.8 0.1 340);
+    background-image: url("images/Gem2.png");
+    background-blend-mode: color-burn;
+    background-position: 50% 50%;
+}
+
+aside { 
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-around;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+    padding: 1em 0em;
+}
+
+footer {
+    text-align: center;
+}
