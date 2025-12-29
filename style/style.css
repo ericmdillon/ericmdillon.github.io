@@ -26,6 +26,7 @@ h1 {
     font-style: normal;
     text-align: center;   
     line-height: 1;
+    text-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
 }
 
 .subtitle {
@@ -68,6 +69,12 @@ nav .button {
     background-blend-mode: color-burn;
     padding: 1em 1em;
     margin: 0em 0em 1em 0em;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+nav .button:hover {
+    background-color: oklch(from var(--btn-color) calc(l - 0.15) c h);
+    color: white;
 }
 
 nav a {
@@ -77,31 +84,37 @@ nav a {
 }
 
 nav .home-button { 
-    background-color: oklch(0.8 0.1 180);
+    --btn-color: oklch(0.8 0.1 180);
+    background-color: var(--btn-color);
 }
 
 nav .cv-button { 
-    background-color: oklch(0.8 0.1 212);
+    --btn-color: oklch(0.8 0.1 212);
+    background-color: var(--btn-color);
     background-position: 15% 0%;
 }
 
 nav .contact-button { 
-    background-color: oklch(0.8 0.1 244);
+    --btn-color: oklch(0.8 0.1 244);
+    background-color: var(--btn-color);
     background-position: 15% 15%;
 }
 
 nav .teaching-button { 
-    background-color: oklch(0.8 0.1 276);
+    --btn-color: oklch(0.8 0.1 276);
+    background-color: var(--btn-color);
     background-position: 50% 25%;
 }
 
 nav .news-button { 
-    background-color: oklch(0.8 0.1 308);
+    --btn-color: oklch(0.8 0.1 308);
+    background-color: var(--btn-color);
     background-position: 25% 50%;
 }
 
 nav .things-button { 
-    background-color: oklch(0.8 0.1 340);
+    --btn-color: oklch(0.8 0.1 340);
+    background-color: var(--btn-color);
     background-position: 50% 50%;
 }
 
@@ -125,6 +138,7 @@ img {
     height: auto;
     display: block;
     margin: 0em 0em 1em 0em;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
 }
 
 footer {
