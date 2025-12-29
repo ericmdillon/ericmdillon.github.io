@@ -32,10 +32,12 @@ h1 {
 .subtitle {
     text-align: center;
     margin: 0em 0em 0em 0em;
+    font-weight: bold;
+    margin: 0em 0em 2em 0em;
 }
 
 h2 {
-    margin: 1em 0em 0.1em 0em;
+    margin: 0em 0em 1em 0em;
     font-style: normal;
     text-align: center;   
     line-height: 1;
