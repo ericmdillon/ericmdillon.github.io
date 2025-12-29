@@ -112,6 +112,14 @@ aside {
     justify-content: start;
 }
 
+.nomargin {
+    margin: 0em;
+}
+
+.bottom-margin-only {
+    margin: 0em 0em 1em 0em;
+}
+
 img {
     width: 100%;
     height: auto;
